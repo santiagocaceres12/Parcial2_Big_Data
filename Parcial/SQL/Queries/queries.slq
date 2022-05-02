@@ -1,0 +1,5 @@
+select newspaper, year, month, day, title from scraping_results;
+select newspaper, year, month, day, title from scraping_results where newspaper = 'CNN_News';
+select newspaper, title, categoty from scraping_results where newspaper = 'BCC_News';
+select title, category from scraping_results where newspaper = 'BBC_News';
+select title, category from scraping_results where newspaper = 'BBC_News' and category like '%Future%';
